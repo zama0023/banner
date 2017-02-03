@@ -19,15 +19,22 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .img-flex {
   display: block;
   width: 100%;
 }
 
 .banner {
-
+  position: absolute;
+  overflow: hidden;
 }
 
 .banner-content {
-
+  position: relative;
+  bottom: 14rem;
+  color: white;
 }
